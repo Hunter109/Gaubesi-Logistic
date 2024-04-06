@@ -573,10 +573,8 @@ main .gaubesi-welcome button:hover {
     .contact-container .contact {
         flex-direction: column;
         align-items: flex-start;
-        margin: 20px;
+
     }
-
-
 
     .contact .telephone i,
     .contact .mail i,
@@ -587,7 +585,7 @@ main .gaubesi-welcome button:hover {
 
 }
 
-@media only screen and (max-width:834px) {
+@media only screen and (min-width:429px) and (max-width:834px) {
 
     .contact-container .contact {
         display: flex;
