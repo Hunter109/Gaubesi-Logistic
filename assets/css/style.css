@@ -535,3 +535,94 @@ main .gaubesi-welcome button:hover {
 
 
 }
+
+
+.contact-container .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.contact .telephone,
+.contact .mail,
+.contact .map,
+.contact .facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 40px;
+    color: var(--orange);
+}
+
+.contact .telephone i,
+.contact .mail i,
+.contact .map i,
+.contact .facebook i {
+
+    color: white;
+    font-size: 2rem;
+    background-color: #ff695f;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+@media only screen and (max-width:428px) {
+
+    .contact-container .contact {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 20px;
+    }
+
+
+
+    .contact .telephone i,
+    .contact .mail i,
+    .contact .map i,
+    .contact .facebook i {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width:834px) {
+
+    .contact-container .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .contact .telephone,
+    .contact .mail,
+    .contact .map,
+    .contact .facebook {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        color: var(--orange);
+    }
+
+    .contact .telephone i,
+    .contact .mail i,
+    .contact .map i,
+    .contact .facebook i {
+
+        font-size: 1rem;
+        margin: 10px;
+    }
+}
+
+
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
