@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+
+}
+
+:root {
+    --orange: #ff695f;
+    --blue: #03a4ed;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* navbar design start here  */
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 10px;
+    background-color: #fafafa;
+}
+
+.navbar .logo img {
+    height: 3.5rem;
+
+}
+
+.nav-links .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.nav-links .list li a {
+    font-size: 18px;
+    padding: 0 20px 0 20px;
+
+}
+
+.nav-links .list button {
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--orange);
+    color: white;
+    margin: 0 0 0 20px;
+    transition: all 0.4s ease-out 0.1s;
+
+}
+
+.nav-links .list button:hover {
+    background-color: var(--blue);
+    cursor: pointer;
+}
+
+@media only screen and (max-width:428px) {
+
+    .navbar {
+        justify-content: space-around;
+
+        padding: 15px 5px;
+    }
+
+    .navbar .logo img {
+        height: 2.5rem;
+
+    }
+
+    .nav-links .list {
+        display: none;
+
+
+    }
+
+
+
+}
+
+/* navbar design end here  */
