@@ -19,7 +19,7 @@ This project is a simple HTML and CSS clone of the Gaaubesi Logistics - Delivery
 
 You can see a live demo of this project [Click here](https://hunter109.github.io/Gaubesi-Logistic/).
 
-![Gaubesi Logistic Demo](./assets/js/demo.png)
+![Gaubesi Logistic Demo](./assets/js/xd.png)
 
 ## Technologies Used
 
